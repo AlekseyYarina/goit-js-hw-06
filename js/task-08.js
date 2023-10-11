@@ -14,6 +14,7 @@ function onFormSubmit(event) {
 
   if (mailFormEl === "" || passwordFormEl === "") {
     alert("You didn't enter email or password");
+    return;
   }
 
   const formData = {
