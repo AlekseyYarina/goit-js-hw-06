@@ -23,7 +23,7 @@ button {
   cursor: pointer;
 }
 
-/*-------------- task-3 --------------*/
+/*-------------- task-03 --------------*/
 
 .gallery {
   display: flex;
@@ -35,4 +35,3 @@ button {
   margin: 10px; 
   max-width: calc(100% - 20px);
 }
-
