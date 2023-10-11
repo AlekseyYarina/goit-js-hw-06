@@ -4,7 +4,7 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const widget = document.querySelector(".widget");
+const widget = document.querySelector(".widget").parentElement;
 const nameOfColor = document.querySelector(".color");
 const btnChangeColor = document.querySelector(".change-color");
 
