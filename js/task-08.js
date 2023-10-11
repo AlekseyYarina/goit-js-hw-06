@@ -21,6 +21,6 @@ function onFormSubmit(event) {
     password: passwordFormEl,
   };
   console.log(formData);
-  
+
   form.reset();
 }

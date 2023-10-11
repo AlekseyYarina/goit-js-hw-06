@@ -10,7 +10,7 @@ const btnChangeColor = document.querySelector(".change-color");
 
 btnChangeColor.addEventListener("click", cangeBackgroundColor);
 
-function cangeBackgroundColor(){
+function cangeBackgroundColor() {
   const newColor = getRandomHexColor();
   widget.style.backgroundColor = newColor;
   nameOfColor.textContent = newColor;

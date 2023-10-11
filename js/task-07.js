@@ -3,7 +3,7 @@ const changeSizeText = document.querySelector("#text");
 
 inputSizeControl.addEventListener("input", changingSize);
 
-function changingSize(){
-    const fontSize = inputSizeControl.value + "px";
-    changeSizeText.style.fontSize = fontSize;
+function changingSize() {
+  const fontSize = inputSizeControl.value + "px";
+  changeSizeText.style.fontSize = fontSize;
 }
