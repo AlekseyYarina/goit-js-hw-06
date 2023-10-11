@@ -7,3 +7,4 @@ function changingSize() {
   const fontSize = inputSizeControl.value + "px";
   changeSizeText.style.fontSize = fontSize;
 }
+changingSize()
