@@ -10,6 +10,12 @@ const ingredients = [
 const ingrList = document.querySelector("#ingredients");
 
 const arrayList = ingredients.map((ingredient) => {
-  return `<li class="item">${ingredient}</li>`;
+  const item = document.createElement("li");
+  item.classList.add("item");
+  item.textContent = ingredient;
+  return item;
 });
-ingrList.innerHTML = arrayList.join("");
+
+// console.log(ingrList);
+ingrList.append(...arrayList);
+
